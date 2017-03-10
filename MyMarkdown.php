@@ -1,6 +1,6 @@
 <?php
 
-class MyMarkdown extends \cebe\markdown\Markdown
+class MyMarkdown extends \cebe\markdown\GithubMarkdown
 {
 	use \cebe\markdown\inline\UrlLinkTrait;
 
